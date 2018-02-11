@@ -18,6 +18,15 @@
         });
     }
 
-    let str = "qwerty";
-    console.log(str.isUnique());
+    let str = "qwy";
+    /**
+     * -----------------------------------------------------------
+     * Testing If A String Is Unique But Without Any Data Structure Trick
+     * Using Regular Expression
+     * @return {Boolean} isUnique
+     */
+    function isUnique(str){
+        return !(/(\w).*?\1/i).test(str);
+    }
+    isUnique(str)
 }())
