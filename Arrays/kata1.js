@@ -1,5 +1,13 @@
 (function(){
     /**
+     * Input
+     * @type {String}
+     */
+    let str = "qwy";
+
+
+
+    /**
      * Extending The String Object
      * And Using HashTables To Determin If All Letters Are Coutned Once.
      * @return {Boolean} isUnique
@@ -18,7 +26,10 @@
         });
     }
 
-    let str = "qwy";
+    str.isUnique();
+
+
+
     /**
      * -----------------------------------------------------------
      * Testing If A String Is Unique But Without Any Data Structure Trick
@@ -28,5 +39,8 @@
     function isUnique(str){
         return !(/(\w).*?\1/i).test(str);
     }
-    isUnique(str)
+
+    isUnique(str);
+
+    
 }())
