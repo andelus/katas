@@ -13,7 +13,7 @@ Content
 
 
 ## References
-**Disclaimer: ** This challenges were **not** authored by myself. Only solutions are mine, and are free to use as you wish.
+**Disclaimer:** This challenges were **not** authored by myself. Only solutions are mine, and are free to use as you wish.
 
 * [Cracking the coding interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=dp_ob_title_bk) - by Gayle Laakmann McDowell
 * [HackerRank](https://www.hackerrank.com)
