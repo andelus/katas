@@ -9,7 +9,12 @@ Language Used
 Content
 --
 * Arrays & strings
-* other data structure soon :)
+
+
+TODO
+--
+* Data Structures
+* Design Patterns
 
 
 ## References
